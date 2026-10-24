@@ -349,3 +349,30 @@ select.in{-webkit-appearance:none;appearance:none}
 #toast.on{transform:translate(-50%,0)}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- v2 ---------- */
+.seg.five button{font-size:12.5px;padding:9px 2px}
+.usd-only{display:none}
+.is-usd .usd-only{display:flex}
+.is-usd .no-credit{display:none}
+.fl-row{display:flex;gap:10px}
+.fl-row .fl{flex:1;min-width:0}
+.notice.urgent{border-color:color-mix(in srgb,var(--expense) 45%,transparent)}
+.notice.urgent b{color:var(--expense)}
+.notice b{display:block}
+.pill.down{background:color-mix(in srgb,var(--expense) 14%,transparent);color:var(--expense)}
+.nw{width:100%;display:block;margin-top:10px}
+.rule-row{padding:11px 0}
+.rule-row+.rule-row{border-top:1px solid var(--border)}
+.rule-row .lg-sub{margin-top:6px}
+.bar.rule{height:8px;position:relative;overflow:visible;margin-top:8px}
+.bar.rule span{border-radius:4px}
+.bar i.mark{position:absolute;top:-4px;bottom:-4px;width:2px;border-radius:1px;background:var(--text);opacity:.5}
+.ex-rate{text-align:center;margin-top:12px;font-size:13px}
+.sheet .mini{background:var(--surface-2)}
+.sum-list{margin-top:10px}
+.sum-item{display:flex;gap:10px;align-items:center;padding:10px 0;font-size:14px}
+.sum-item+.sum-item{border-top:1px solid var(--border)}
+.sum-item .grow{flex:1;min-width:0}
+.sheet .tip{margin-top:14px}
+.h-grid b{font-size:13.5px}
